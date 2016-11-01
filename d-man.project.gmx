@@ -6,12 +6,18 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_Title</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_Global</object>
+    <object>objects\obj_Title</object>
+    <object>objects\obj_Main</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_Bootstrap</room>
+    <room>rooms\rm_Title</room>
     <room>rooms\rm_Main</room>
   </rooms>
   <help>
