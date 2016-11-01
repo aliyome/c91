@@ -5,7 +5,9 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_Dman</sprite>
+  </sprites>
   <backgrounds name="background">
     <background>background\bg_Title</background>
   </backgrounds>
@@ -14,12 +16,18 @@
     <object>objects\obj_Global</object>
     <object>objects\obj_Title</object>
     <object>objects\obj_Main</object>
+    <objects name="Dman">
+      <object>objects\obj_Dman</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_Bootstrap</room>
     <room>rooms\rm_Title</room>
     <room>rooms\rm_Main</room>
   </rooms>
+  <constants number="1">
+    <constant name="FIRST_ROOM">rm_Main</constant>
+  </constants>
   <help>
     <rtf>help.rtf</rtf>
   </help>
